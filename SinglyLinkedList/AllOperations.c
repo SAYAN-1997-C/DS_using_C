@@ -287,7 +287,7 @@ node* DeletePos(node *head)
         }
         k++;
     }
-    ptr->next=NULL;
+    ptr->next=temp->next;
     printf("Successfully Deleted !!\n");
     return head;
 

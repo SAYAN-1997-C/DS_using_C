@@ -56,10 +56,10 @@ int main()
     printf("\nThe resultant matrix is : \n");
     for(i=0;i<r1;i++)
     {
-        for(j=0;j<c1;j++)
+        for(j=0;j<c2;j++)
         {
             sum=0;
-            for(k=0;k<r2;k++)
+            for(k=0;k<c1;k++)
             {
                 sum+=arr1[i][k]*arr2[k][j];
             }
